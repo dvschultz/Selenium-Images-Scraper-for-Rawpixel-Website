@@ -21,6 +21,10 @@ To start using this project you need to have account or create one in [rawpixel 
         ```
             chrome.exe -remote-debugging-port=9014 --user-data-dir="<absolute path to the created directory>"
         ```
+        For Mac, use:
+        ```
+            Path/to/Chrome -remote-debugging-port=9014 --user-data-dir="<absolute path to the created directory>"
+        ```
         The command will launch Chrome Web Browser window in debugging mode.
     5. In the opened window (tab) navigate to [rawpixel website](https://www.rawpixel.com/) and login with your account informations, then go to a public domain images album of your choice.
     <br>**NOTE:** This feature run on >= 63 version of chrome web browser only.
